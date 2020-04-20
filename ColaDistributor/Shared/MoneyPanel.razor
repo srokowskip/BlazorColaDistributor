@@ -1,0 +1,15 @@
+﻿@using ColaDistributor.Data.NewFolder
+@inherits MoneyPanelBase
+<div>
+    
+    @foreach(var coinInstance in listOfSupportedCoins)
+    {
+        <MoneyButton OnMoneyPush="MoneyPush" CoinInstance="@coinInstance"></MoneyButton>
+    }
+
+    <span>@coinPushMessage</span>
+</div>
+<span> Machine balance: @machineBalance</span>
+<span> @returnCoinsMessage</span>
+
+

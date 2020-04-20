@@ -1,0 +1,22 @@
+﻿@inherits IndexBase;
+@using ColaDistributor.Data.NewFolder;
+@page "/"
+
+
+<ProductList listOfProducts="@products">
+    <NullTemplate><img src="https://i.pinimg.com/originals/3f/2c/97/3f2c979b214d06e9caab8ba8326864f3.gif" /></NullTemplate>
+    <EmptyTemplate>There are no records...</EmptyTemplate>
+</ProductList>
+
+<MoneyPanel></MoneyPanel>
+
+<style>
+.nav-item{
+    padding-top: 1rem;
+}
+
+.nav-item a.active{
+    color:brown;
+}
+
+</style>

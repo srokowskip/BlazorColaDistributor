@@ -1,0 +1,35 @@
+﻿@using ColaDistributor.Interfaces    
+
+    <div class="card m-3" style="width: 18rem;">
+        @if (product == null)
+        {
+            <p>Loading...</p>
+        }
+        else
+        {
+            <img src="images/lol.jpg" class="card-img-top" alt="Product image">
+            <h3 class="card-title">@product.Name @product.Id</h3>
+            <div class="card-body">
+                <div class="card-body">
+                    <h6>Price: @product.Price</h6>
+                    <h6>Left: @product.Quantity</h6>
+                </div>
+
+
+                <button @onclick="Buy" class="btn btn-primary">Buy</button>
+            </div>
+        }
+    </div>
+@code {
+    [Parameter]
+    public IProduct product { get; set; }
+
+    [Parameter]
+    public EventCallback<IProduct> onBuy { get; set; }
+
+    private void Buy()
+    {
+        Console.WriteLine("asda");
+        onBuy.InvokeAsync(product);
+    }
+}

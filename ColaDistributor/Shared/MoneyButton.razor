@@ -1,0 +1,15 @@
+﻿@inherits MoneyButtonBase;
+
+
+@if (CoinInstance != null)
+{
+    <button @onclick="PushCoin" class="btn btn-info">@CoinInstance.Name</button>
+
+}
+else
+{
+    <div>Loading...</div>
+}
+
+
+

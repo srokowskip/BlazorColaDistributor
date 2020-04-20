@@ -1,0 +1,33 @@
+﻿
+@inherits ProductListBase
+<div class="card text-center">
+    <div class="card-header">
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link active" href="#">Drinks</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Food</a>
+            </li>
+        </ul>
+    </div>
+    <div class="card-body" style="display:flex; flex-wrap:wrap; flex-direction:row">
+
+        @if (ListOfProducts == null)
+        {
+            @NullTemplate
+        }
+
+        else if (ListOfProducts.Count == 0)
+        {
+            @EmptyTemplate
+        }
+        else
+        {@foreach (var product in ListOfProducts)
+        {
+
+            <Product onBuy="OnBuy" Product="@product"></Product>
+        }
+        }
+    </div>
+</div>
