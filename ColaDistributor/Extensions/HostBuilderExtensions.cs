@@ -1,7 +1,6 @@
 ﻿
-using ColaDistributor.Interfaces;
-using ColaDistributor.Seeders;
-using ColaDistributor.Services;
+
+using ColaDistributor.Data.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System;

@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColaDistributor", "ColaDistributor\ColaDistributor.csproj", "{28100460-C7FF-4B1B-8145-9463FB5CF88C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColaDistributor.API", "ColaDistributor.API\ColaDistributor.API.csproj", "{9C1B5DE8-6925-4CEC-834E-43002BD32329}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColaDistributor.Data", "ColaDistributor.Data\ColaDistributor.Data.csproj", "{7F982F53-8D50-442D-9495-67C00CBC742A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{28100460-C7FF-4B1B-8145-9463FB5CF88C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28100460-C7FF-4B1B-8145-9463FB5CF88C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28100460-C7FF-4B1B-8145-9463FB5CF88C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C1B5DE8-6925-4CEC-834E-43002BD32329}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C1B5DE8-6925-4CEC-834E-43002BD32329}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C1B5DE8-6925-4CEC-834E-43002BD32329}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C1B5DE8-6925-4CEC-834E-43002BD32329}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F982F53-8D50-442D-9495-67C00CBC742A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F982F53-8D50-442D-9495-67C00CBC742A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F982F53-8D50-442D-9495-67C00CBC742A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F982F53-8D50-442D-9495-67C00CBC742A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,8 +1,8 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>7eedbaf9-3455-4015-8642-cabab4346580</UserSecretsId>
+    <UserSecretsId>71c268af-fc80-480c-9db4-24954b0025d0</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
 
@@ -10,8 +10,5 @@
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.9.5" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\ColaDistributor.Data\ColaDistributor.Data.csproj" />
-  </ItemGroup>
 
 </Project>

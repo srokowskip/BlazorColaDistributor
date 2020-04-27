@@ -1,4 +1,4 @@
-﻿using ColaDistributor.Interfaces;
+﻿using ColaDistributor.Data.Interfaces;
 using Microsoft.AspNetCore.Components;
 using System;
 using System.Collections.Generic;
